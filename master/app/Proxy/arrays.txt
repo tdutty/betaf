@@ -1,0 +1,50 @@
+            const specVal = (y) => ({
+                'General+Medicine' : ['Absorica','Savella','Amikacin Sulfate','Cetraxal','Otiprio','Rezira','Tessalon','Humira','Crestor','Nexium','Mekinist','Elimite','Amphotericin B','Cayston','Relenza diskhaler'],
+                "Physical+Medicine+%26+Rehabilitation": ['ampyra','Exparel','Forteo','Actimmune','Zubsolv','Prialt','Tysabri', 'Apokyn','Azilect','Stalevo','Gilenya','ilaris','lyrica','Aubagio','Copaxone'],
+                "Dermatology":['Refissa','Duac','Ziana','Altabax','Centany','Ovace','Efudex','Tolak','Elimite','Cordran','Benzaclin','Varithena','Minocin','Doryx','Solodyn'],
+                "Cardiovascular": ['Hyzaar','Valsartan','Moexipril Hydrochloride','Cardene','Corgard','Natrecor','Digoxin','Aldactone','Methyldopa','Avapro','Lidocaine','Ranexa','Inspra','Carospir','Tenex'],
+                "Anesthesiology":['sumatriptan','Amrix','Cyclobenzaprine','Gralise','Lidoderm','Daypro','Feldene','Indocin','Mobic','Ponstel','Bloxiverz','Dopram','Nalbuphine','lidocaine','Diprivan'],
+                "Obstretics%26Gynecology" :['Amethia','Cetrotide','Zoladex','clomiphene','Activella','Angeliq','Estradiol','Lysteda','Provera','Methergine','Osphena','Vandazole','Nuvessa','Clindesse','Altavera'],
+                "Hematology" :['Sensipar','Isentress','Onglyza','Selzentry','Victoza','Lysodren','Myleran','Matulane','Evomela','bendeka','Coagulation factor IX','Amphotericin B','Pradaxa','Promacta','Samsca'],
+                "Oncology" :['Tasigna','Proleukin','Lynparza','Votrient','Lysodren','Myleran','Hexalen','Tepadina','Matulane','Alkeran','Velcade','Zykadia','Oncaspar','Revlimid','Yondelis'],
+                "Psychiatry" :['Trintellix','Vyvanse','Viibryd','Rozerem','Abilify','Vimpat','Armodafinil','Cambia','Fanapt','Invega sustenna','Latuda','Xyrem','Fetzima','Pristiq','adasuve'],
+                "Pulmonary" :[ 'Kalydeco', 'Ranexa', 'Primatene', 'Brovana', 'ProAir RespiClick' ],
+                "Radiology" :['Zytiga','Abraxane','Adcetris','Afinitor','combivir','Axumin','Gazyva','Jakafi','Kepivance','Lenvima','amitiza','zydelig','Imbruvica','Odomzo','Venclexta'],
+                "Urology" :['Anaspaz','Gelnique','flavoxate hydrochloride','Avodart','Jalyn','Stimate','Urecholine','Samsca','valprisol','Zyloprim','Cuprimine','Actigall','Uristat ultra','methenamine hippurate','Nitrofurantoin Macrocrystals'],
+                "Opthalmology" :['Pazeo','Lucentis','Visudyne','Zirgan','Durezol','Alcaine','Maxitrol','Azasite','Azelastine Hydrochloride','Flarex','Zymaxid','Vigamox','Natacyn','ALaway','Patanol'],
+                "Endocrine" :['cinacalcet','hectorol','Sensipar','Zemplar','omnipred','Rayos','acarbose','Precose','SymlinPen','Zoladex','amiloride hydrochloride','Aldactone','Lupron Depot','methitest','calcitriol'],
+                "Emergency+Medicine" :['Ranexa','Sotalol Hydrochloride','Catchflo Activase','Inspra','Carospir','Hyzaar','Adenocard','Isoproterenol hydrochloride','Milrinone lactate','akovaz','MYORISAN','Exparel','Narcan','Acephen','Pradaxa'],
+                "Internal+Medicine" :['Bystolic','Cipro','Clonidine hydrochloride','Crestor','argatroban','Daliresp','Dexilant','Edarbyclor','EGgrifta','Exforge HCT','Axiron','Aranesp','Benlysta','Brilinta','Brovana'],
+                "Preventative+Medicine" :['Bystolic','bisoprolol fumarate','Avapro','Ezetimibe and simvastatin','Welchol','altoprev','Clopidogrel','aggrenox','Pravachol','Candesartan cilexetil','Effient','Altoprev','Xarelto','Captopril','Livalo'],
+                "Pain+Medicine" :['Ultram','Nembutal sodium','Exparel','Dexilant','Lumigan','Pradaxa','Acetadote','Evzio','Mephtyon','sumatriptan','Gilenya','Prialt','Fexmid','Savella','Lidocaine'],
+                "Dental+Provider" :['Ultram','Nembutal sodium','Exparel','Dexilant','Lumigan','Pradaxa','Acetadote','Evzio','Mephtyon','sumatriptan','Gilenya','Prialt','Fexmid','Savella','Lidocaine'],
+                "Pediatrics" :['Kepivance','cevimeline hydrochloride','Ethyol','Salagen','Denavir','Amoxil','Atridox','Peridex','Canesten v','Fluconazole','Kovanaze','Diflucan','vfend','Noxafil','Abreva'],
+                "Pediatrics" :['Gilenya','Ilaris','Kalydeco','Promacta','Relenza','Vesicare','Zithromax','Absorica','Pazeo','Alaway','Ambisome','Banzel','Cayston','Elaprase','Elimite'],
+                "Neurology" :['Razadyne','Apokyn','Azilect','benzotropine mesylate','Stalevo','Fexmid','Gabapentin','neostigmine methylsulfate','Mestinon','Rilutek','Rebif','Tysabri','Xyrem','Banzel','Aricept'],
+                "Plastic+Surgery" :['atropine','bloxiverz','vimovo','mestinon','miostat','Ultiva','nalbuphine hydrochloride','cefazolin','nalfon','cefotan','Plavix','Ticlopidine hydrochloride','Persantine','ativan','Alfentanil hydrochloride'],
+                "Allergy%26Immunology" :['Pegasys','Plegridy Pen','sulfasalazine','Plaquenil','Inflectra','pataday','Rapamune','Ridaura','Extavia','Avonex','Kineret','Benlysta','Rituxan','Azasan']
+            })[y]
+
+
+
+
+            const specCat = (x) => ({
+                'New-Medications' :['Olumiant','Palynziq','Doptelet','veltassa','Aimovig','Lucemyra','Akynzeo',  'Crysvita','Tavalisse','Ilumya','Trogarzo','xofluza','Symdeko','Biktarvy','Lutathera','Erleada','Lucemyra'],
+                'Popular-Medications' :['Crestor','Humira','Avastin','Januvia','Xarelto','Opdivo','Neulasta','tecfidera','Harvoni','Nexium','Enbrel','deltasone','amoxil','prinivil','cozaar','zithromax','meloxicam'],
+                'New-Medical-Devices' :['SYNOJOYNT™ – P170016','PartoSure Test - P160052',' Medtronic DBS System for Epilepsy - P960009/S219','Medtronic IN.PACT™ Admiral™ ','Paclitaxel-Coated PTA Balloon Catheter - ','P140010/S037','AngelMed Guardian System - P150009','GORE® CARDIOFORM Septal Occluder - P050006/S060','Guardian Connect System – P160007','Abbott Perclose ProGlide Suture-Mediated Closure System - P960043/S097','MiniMed 630G System with SmartGuard - P150001/S01','Impella Ventricular Support Systems - P140003/S018'],
+                'Dermatology' :['ACZONE','tretinoin','COSENTYX',  'COTELLIC','Otezla',  'Zelboraf','BENLYSTA','stelara','minoxidil','Finacea','Adoxa'],
+                'Cardiovascular' :['corlanor','ENTRESTO','FIRAZYR','FRAGMIN','GILENYA','Letairis','definity','ORENITRAM','ORKAMBI','PRADAXA','Ranexa','REVATIO','TEKTURNA'],
+                'Anesthesiology' :['actemra','seroquel','avastin','belviq','bydureon BCise','bridion','brilinta','lovaza','embeda','feiba','feraheme','exalgo','exparel','eliquis','movantik','prialt','hydroxyzine hydrochloride'],
+                'Obstetrical' :['NUVESSA','Avastin','DUAVEE','ENDOMETRIN','ESTRACE','hydroxyprogesterone caproate','Osphena','TOVIAZ','Vesicare','clindesse'],
+                'Hematology' :['jardiance','feiba','lantus solostar','epogen','orencia','effient','FRAGMIN','NINLARO','PRADAXA','TOUJEO'],
+                'oncology' :['ibrance',       'opdivo','abraxane',      'cyramza','DALIRESP',      'ELIQUIS','GILOTRIF',    'Herceptin','IMLYGIC',     'LEMTRADA','keytruda',      'NINLARO',     'Revlimid','ZYTIGA',    'Kepivance'],
+                'Immunology' :['Creon','FIRAZYR','Kineret','Benlysta','Rituxan hyclela','Azasan','Imuran','Rapamune','Ridaura','Extavia','Avonex'],
+                 'Gastroenterology-and-Urology' :['Entyvio','KRYSTEXXA','LINZESS','Myrbetriq','SEEBRI neohaler','Uloric','VIBERZI','Amitiza','entecavir','GATTEX'],
+                'Radiology' :['lubiprostone','Ibrutinib','IMBRUVICA',       'ODOMZO','Venclexta','ZYTIGA','Abraxane',     'ADCETRIS','AFINITOR','Axumin',       'GAZYVA','JAKAFI',    'Kepivance','Lenvima',     'LIPIODOL'],
+                'Urology' :['BENLYSTA','COSENTYX','CUBICIN RF','firmagon','INLYTA','JEVTANA','LEUPROLIDE','SUTENT','TOVIAZ','Uloric','VOTRIENT'],
+                'Ophthalmic' :['LUMIGAN','RESTASIS','XIIDRA','COMBIGAN','besivance','levofloxacin','Moxeza','Polycin','Ocuflox','levaquin','tobrex'],
+                'Physical-Medicine' :['GILENYA',    'ilaris','lyrica',   'AUBAGIO','Copaxone',    'AMPYRA','EXPAREL',    'Forteo','ACTIMMUNE',    'Prialt','zubsolv'],
+                'New-Medical-Devices' :['SYNOJOYNT™ – P170016','PartoSure Test - P160052',' Medtronic DBS System for Epilepsy - P960009/S219','Medtronic IN.PACT™ Admiral™ ' +'Paclitaxel-Coated PTA Balloon Catheter - ' +'P140010/S037','AngelMed Guardian System - P150009','GORE® CARDIOFORM Septal Occluder - P050006/S060','Guardian Connect System – P160007','Abbott Perclose ProGlide Suture-Mediated Closure System - P960043/S097','MiniMed 630G System with SmartGuard - P150001/S01','Impella Ventricular Support Systems - P140003/S018'],
+                'Specialty-Pharmaceuticals' :['Sandostatin',    'Lucemyra','Vivivtrol',  'Dofetilide','Arcalyst',   'Pulmozyme','Omnitrope',    'Increlex','Mozobil',    'Neupogen','entecavir',      'Epivir','Moderiba',     'vemlidy','Torisel' ],
+                'Dental' :['zazole',   'noxafil','abreva',    'xerese','kepivance',    'Exovac', 'Ethyol',   'Salagen','sporanox',  'NebuPent','vfend']
+            })[x]

@@ -1,0 +1,19 @@
+
+I need to write a script in the proxy server that access and returns files based parameters for the comments . time / specialty / drugname 
+customer alert banner 
+
+add resize to cloudinary link
+
+
+Create a userCred auth
+Create a RequestID 
+
+I need to write functions that trigger animation and append new messages to the page.
+I need to write the css for the chat system. large and mobile devices. I need 
+add button and reply on front end and backend for medical device jus tadd a a different id 
+
+I need to force the top comment to the top if its focused on 
+create a container for images. 
+
+add floating action button for mobile and bind it too chat.
+add 
